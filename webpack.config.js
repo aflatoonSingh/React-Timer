@@ -7,6 +7,10 @@ module.exports = {
     resolve: {
     root:__dirname,
     alias: {
+        Main: 'app/components/main.jsx',
+        Navbar: 'app/components/navbar.jsx',
+        Timer: 'app/components/timer.jsx',
+        Counter: 'app/components/counter.jsx'
     },
     extensions:['','.js','.jsx']
     },
@@ -21,5 +25,6 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             }
         ]
-    }
+    },
+    devtool : 'cheap-module-eval-source-map'
 };
