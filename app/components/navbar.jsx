@@ -6,7 +6,7 @@ var Navbar = React.createClass({
        return(
         <div className='container'>
             <div className='containerLinks'>React-Timer-App</div>
-            <IndexLink to='/timer' className='containerTimerCount' >Timer</IndexLink>
+            <IndexLink to='/' className='containerTimerCount' >Timer</IndexLink>
             <IndexLink to='/counter' className='containerTimerCount'>CountDown</IndexLink>
         </div>
        );

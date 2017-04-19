@@ -10,7 +10,8 @@ module.exports = {
         Main: 'app/components/main.jsx',
         Navbar: 'app/components/navbar.jsx',
         Timer: 'app/components/timer.jsx',
-        Counter: 'app/components/counter.jsx'
+        Counter: 'app/components/counter.jsx',
+        Clock : 'app/components/clock.jsx'
     },
     extensions:['','.js','.jsx']
     },

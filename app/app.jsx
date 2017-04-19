@@ -9,9 +9,9 @@ var {Router, Route, IndexRoute, hashHistory} = require('react-router');
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path='/' component={Main}>
-            <Route path='timer' component={Timer}></Route>
+           
             <Route path='counter' component={Counter}></Route>
-            
+             <IndexRoute  component={Timer}></IndexRoute>
         </Route>
     </Router>,
     document.getElementById('app')
