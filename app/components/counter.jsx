@@ -7,8 +7,13 @@ var Counter = React.createClass({
    
     onFormSubmit: function(e){
         e.preventDefault();
-        var hello = this.refs.userinput.value;
-        console.log(hello)
+        var strSeconds = this.refs.userinput.value;
+        console.log(strSeconds,'strSeconds')
+        
+        if(strSeconds.match(/^[0-9]*$/)){
+            this.refs.userinput.value = '';
+            this.props.onSetCountdown(parseInt(strSeconds,10));
+        }
     },
     render:function(){
     

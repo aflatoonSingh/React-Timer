@@ -1,6 +1,9 @@
 var React = require('react');
 var Navbar = require('Navbar');
 var Timer = require('Timer');
+var CountDown = require('Countdown');
+
+
 
 var Main = React.createClass({
     render:function(){
